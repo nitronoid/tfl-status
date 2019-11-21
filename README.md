@@ -21,22 +21,24 @@ cargo uninstall
 Color highlighting is included.
 ```
 $ tfl-status
-┌──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
-│ Bakerloo            Good Service                                                                                             │
-│ Central             Good Service                                                                                             │
-│ Circle              Good Service                                                                                             │
-│ District            Good Service                                                                                             │
-│ DLR                 Good Service                                                                                             │
-│ Hammersmith & City  Good Service                                                                                             │
-│ Jubilee             Minor Delays  Jubilee Line: Minor delays whilst engineers continue to fix a fault on some of our trains. │
-│ London Overground   Good Service                                                                                             │
-│ Metropolitan        Good Service                                                                                             │
-│ Northern            Good Service                                                                                             │
-│ Piccadilly          Good Service                                                                                             │
-│ TfL Rail            Good Service                                                                                             │
-│ Victoria            Good Service                                                                                             │
-│ Waterloo & City     Good Service                                                                                             │
-└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+┌───────────────────────────────────────────────────────────────────────────────────────────────┐
+│ Bakerloo            Good Service                                                              │
+│ Central             Good Service                                                              │
+│ Circle              Good Service                                                              │
+│ District            Minor Delays  District Line: Minor delays West Ham to Upminster eastbound │
+│                                   due to a person ill on a train earlier at East Ham. GOOD    │
+│                                   SERVICE on the rest of the line.                            │
+│ DLR                 Good Service                                                              │
+│ Hammersmith & City  Good Service                                                              │
+│ Jubilee             Good Service                                                              │
+│ London Overground   Good Service                                                              │
+│ Metropolitan        Good Service                                                              │
+│ Northern            Good Service                                                              │
+│ Piccadilly          Good Service                                                              │
+│ TfL Rail            Good Service                                                              │
+│ Victoria            Good Service                                                              │
+│ Waterloo & City     Good Service                                                              │
+└───────────────────────────────────────────────────────────────────────────────────────────────┘
 
 # ...or if you haven't installed
 $ cargo run --release
