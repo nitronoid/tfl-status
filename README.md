@@ -46,7 +46,7 @@ $ cargo run --release
 
 Example output with colors.
 <p align="center">
-<img src="images/tfl.png" width="800">
+<img src="images/tfl.png" width="682">
 </p>
 
 ## References
