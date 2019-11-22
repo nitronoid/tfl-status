@@ -89,7 +89,7 @@ fn format_status(raw_status_data: &str, opt: &FormatOptions) -> serde_json::Resu
     // Calculate the max length for a reason string and wrap all reason strings
     if !opt.no_reason {
         let wrap_width = match opt.reason_width {
-            0 => textwrap::termwidth() - (max_len + 6),
+            0 => textwrap::termwidth() - (max_len + 8),
             w => w,
         };
         table.row_iter_mut().for_each(|row| {
