@@ -40,7 +40,7 @@ fn status_color(status_code: i64) -> color::Color {
         // Severe delays
         20 => color::RED,
         // Minor disruption and misc warnings
-        8...std::i64::MAX => color::YELLOW,
+        8..=std::i64::MAX => color::YELLOW,
         // Catch all
         _ => color::RED,
     }
