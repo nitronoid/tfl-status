@@ -51,5 +51,4 @@ Example output with colors.
 
 ## References
 I wrote this project for fun and it is based on the bash implementation by [smallwat3r](https://github.com/smallwat3r/tubestatus)
-A python implementation can be found [here](https://github.com/nitronoid/tube-status)
 
