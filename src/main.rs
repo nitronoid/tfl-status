@@ -27,7 +27,7 @@ fn box_border_format() -> format::TableFormat {
 
 // Pulls the raw json string from the TFL API via an http request
 fn pull_status_data() -> Result<String, Box<dyn std::error::Error>> {
-    let url = "https://api.tfl.gov.uk/line/mode/tube,overground,dlr,tflrail/status";
+    let url = "https://api.tfl.gov.uk/line/mode/tube,overground,dlr/status";
     let body = reqwest::get(url).unwrap().text()?;
     Ok(body)
 }
